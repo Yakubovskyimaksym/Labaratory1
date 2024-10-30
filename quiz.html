@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW - Опитувальник</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Опитувальник</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="quiz.html">Опитувальник</a></li>
+                <li><a href="news.html">Новини</a></li>
+                <li><a href="achievements.html">Досягнення</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Яке авто BMW вам до вподоби?</h2>
+        <form>
+            <label for="name">Ваше ім'я:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="model">Оберіть модель BMW:</label>
+            <select id="model" name="model">
+                <option value="series3">BMW Series 3</option>
+                <option value="series5">BMW Series 4</option>
+                <option value="x5">BMW Series 5</option>
+                <option value="x5">BMW X5</option>
+                <option value="x5">BMW X6</option>
+
+            </select>
+
+             <label for="preference">Чому ви обираєте цю модель?</label>
+            <textarea id="preference" name="preference" rows="4" cols="50"></textarea>
+
+<hr>
+
+            <label>Чи подобається вам авто виробника BMW:</label>
+    <label>Так <input type="radio" name="eee" value="1var"></label>
+    <label>Ні <input type="radio" name="eee" value="2var"></label>
+
+
+                <hr>
+            <label for="model">Оберіть режими швидкості BMW:</label>
+            <select id="model" name="model">
+                <option value="М1">Comfort</option>
+                <option value="М2">M-Power</option>
+                <option value="М3">X-Drive</option>
+            </select>
+            
+<hr>
+
+            <label for="model">Оберіть функцію адаптивного круїз контролю BMW:</label>
+           <label>Так <input type="radio" name="eeeу" value="1var"></label>
+             <label>Ні <input type="radio" name="eeeу" value="2var"></label>
+
+
+<hr>
+            <label for="model">Оберіть обєм двигуна BMW:</label>
+            <select id="model" name="model">
+                <option value="2.0">2.0</option>
+                <option value="3.0">3.0</option>
+                <option value="4.4">4.4</option>
+            </select>
+
+
+            <input type="submit" value="Відправити">
+        </form>
+    </section>
+    <h2>Дякую за опитування</h2>
+
+    <footer>
+        <p>&copy; 2024 BMW. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
